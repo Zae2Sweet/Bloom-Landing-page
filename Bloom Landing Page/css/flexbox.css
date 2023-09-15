@@ -1,0 +1,233 @@
+:root{
+  --header: #26292e;
+  --sub-header:#e8728c;
+ --sub2: #f4f4f6;
+  --body: white;
+  --btn: black;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  }
+  
+  .th-list{
+  display: flex;
+  justify-content: end;
+  }
+  
+  .th-text{
+    /* margin:8px 0 0 0; */
+    width:50%;
+    /*border: 1px solid greenyellow;*/
+    float:left;
+    
+    
+  }
+  
+  .th-link{
+    color:#777;
+  }
+  .th-text, .th-item{
+    font: size 10px;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Radio Canada', sans-serif;
+  }
+  
+  .th-nav {
+    /* border: 3px solid yellow; */
+  }
+  
+  .th-item{
+    display: inline;
+    
+    
+  }
+  
+  .th-item:last-child{
+    /* padding:0; */
+    border:none;
+  
+  }
+  
+  .heading{
+    background-color: var(--sub-header) ;
+    height: 310px;
+  }
+  .inner{
+    width:90%;
+    margin: 0 auto;
+  }
+  
+  .caps{
+    text-transform: capitalize;
+  }
+  
+  .bold{
+    font-weight: 700;
+  }
+  
+  header{
+    background-color: #26292e;
+    height: 90px;
+    color:white;
+    font-family: 'Alex Brush', cursive;
+    padding: 5px 0px; 
+    /* border: 1px solid yellow; */
+    text-align: center 2px;
+  }
+  
+  
+  
+  #box1{
+    /* border: 1px solid red; */
+    /* height: px; */
+    margin: 0;
+    padding: 0;
+    width:50%;
+    float: left;
+    font-family: 'Alex Brush', cursive;
+  font-family: 'PT Sans', sans-serif;
+  }
+  
+  #box2{
+    /* border: 2px solid yellowgreen; */
+    margin: 0;
+    width: 40%;
+    float: right;
+  }
+  
+  .learnButton{
+    background-color:  rgb(51, 49, 49);
+    color: white;
+    border-radius: 6px ;
+    width: 100px;
+    height: 30px;
+    font-family: 'Oswald', sans-serif;
+  font-family: 'Radio Canada', sans-serif;
+  }
+  
+  .downloadButton{
+    height: 30px;
+    border-radius: 6px;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    margin-left: 15px;
+    font-family: 'Oswald', sans-serif;
+  font-family: 'Radio Canada', sans-serif;
+  }
+  
+  
+  .laptop{
+    /* display: block; */
+    width: 100%;
+  
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin: 0;
+  
+    /* margin-top: 20px; */
+  }
+  
+  .main-inner{
+    height: 500px;
+    /* border: solid rgb(0, 38, 128) 1px; */
+    float: left;
+    background-color: #f4f4f6 ;
+    
+    
+  
+  }
+  
+  .icon-img{
+    width: 10%;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  
+  
+  .footer-section1{
+    /* border: solid red; */
+    width: 59%;
+    float: left;
+  }
+  
+  
+  
+  .main-stuff{
+    /* width: calc(100%/3) ; */
+    width: 33%;
+    float: left;
+    position: down 10px;
+    height: 49px;
+  }
+  
+  .stuff-heading{
+    /* margin-right: auto; */
+    font-family: 'Oswald', sans-serif;
+  font-family: 'Radio Canada', sans-serif;
+  }
+  
+  .product-inner{
+    height: 500px;
+  }
+  
+  .product-container{
+    width: 90%;
+    /* border: solid red; */
+    height: 450px;
+  }
+  
+  .container img{
+    margin-right: 60px;
+    margin-bottom: 50px;
+    width:40%;
+    float: left;    
+  }
+  
+  #product1{
+    border: solid pink 1px;
+  
+  }
+  
+  .footer-section2{
+    float: right;
+    /* border: solid green; */
+    width: 40%;
+  }
+  
+  .review-container{
+    width: 90%;
+    /* border: solid blueviolet; */
+  }
+  
+  .footer-text{
+    height: 150px;
+  }
+  
+  .copyright{
+    background-color: rgb(36, 36, 36);
+    height: 90px;
+    color:white;
+    
+  }
+  
+  .social2{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left; 
+    background-color: white;
+    margin-bottom: 100px;
+  
+  }
+  
+  .clear{
+    clear:both;
+  }
+  
